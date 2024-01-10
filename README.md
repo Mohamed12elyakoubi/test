@@ -17,3 +17,8 @@ in plaats van:
 Heineken (3)
 Grolsch (6)
 Bavaria (1)
+om het resultaat zo te krijgen moet u:
+UPDATE bier SET valt_onder_id = NULL WHERE naam = 'Grolsch Radler';
+
+UPDATE bier SET valt_onder_id = 5 WHERE naam = 'Grolsch Radler';
+---------------------------------------------------------------------------------------------------
